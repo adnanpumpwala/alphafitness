@@ -1,0 +1,232 @@
+@media only screen and (max-width: 992px) {
+    #navbarNav{
+        text-align: center;
+        }
+    .logo{
+        width: 50px;
+    }
+    .shape{
+        font-size: 1.7rem;
+        font-weight: 900 !important;
+        margin-bottom: 0px !important;
+    }
+    .heropara{
+        width: 290px;
+        margin-top: 30px !important;
+        margin: auto;
+    }
+    .heroimg{
+        
+        display: flex;
+        justify-content: center;  
+        padding-top: 82px;
+        margin: auto;
+    }
+    .heroim{
+        width: 370px;   
+    }
+    .herotext{
+        font-size: 0.8rem;
+    }
+    .hero{
+        height: 330px;
+    }
+    .joinbtn{
+    font-size: 1rem;
+     margin: auto;
+    }
+    .ourser{
+        margin: 30px 0px;
+        text-align: center;
+    }
+    .ourser > h1{
+        font-size: 18px; 
+        padding-bottom: 10px;
+    }
+    .ourser > h5{
+        font-size: 9px;
+        margin: auto;
+    }
+    .servi{
+        width: 13rem;
+        margin: auto;
+    }
+    .ct{
+        font-size: 10px;
+    }
+    .trai{
+        width: 8rem;
+    }
+    .tra{
+        width: 7rem;
+        height: 7rem;
+    }
+    .why{
+        margin: 3px auto;
+        width: 10rem !important;
+        align-items: center;
+        padding: 10px 6px;
+        height: 10rem !important;   
+    }
+    .whyicon{
+        width: 50px;
+    }
+    .card-body > h3{
+        font-size: 1rem;
+    }
+    .msgbox{
+        margin: 20px auto;
+        margin-left: 20px !important;
+    }
+    .msgbox > h1{
+        font-size: 1rem;
+    }
+    .msgbox > p{
+        font-size: 0.6rem;
+    }
+    #nl1, #nl2, #nl3{
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0px;
+        width: 150px;
+        padding: 3px 8px;
+    }
+    #nl3{
+        width: 305px !important ;
+    }
+    .nlimg{
+        width: 280px;
+        padding-top: 50px;
+        margin: auto;
+    }
+    .card1 {
+        margin: 15px auto;
+        width: 180px;
+        height: 180px;
+      }
+      .card1 .card_title1 {
+        font-size: 14px;
+        margin-top: -30px;
+        height: 40px;
+      }
+      .foologo{
+        width: 40px;
+        height: 30px;
+        margin: 8px;
+    }
+    .copyfoo{
+        font-size: 10px;
+    }
+    .socicon{
+        width: 30px;
+        padding: 5px;    
+    }
+    .pricard{
+       width: 180px;
+       margin: auto;
+       padding: 20px 10px;
+       border-radius: 10px;
+       height: 400px;
+       margin-bottom: 10px !important;
+    }
+    .priimg{
+        justify-content: center;
+        width: 160px;
+        height: 140px;
+    }
+    .packprice{
+        padding-top: 14px;
+        font-size: 18px;
+    }
+    .packname{
+        font-size: 14px;
+    }
+    .packtext{
+        font-size: 10px;
+    }
+    .imgicon{
+        width: 40px;
+        height: 40px !important;
+    }
+    #navbarNav{
+        text-align: center;
+    }
+    .abttxt{
+        font-size: 12px;
+    }
+    .ptbox{
+        padding: 10px;
+    }
+    
+    .ptimg{
+        width: 210px;
+        height: 270px;
+    }
+    .pthead{
+        font-size: 1rem;
+    }
+    .newsCard {
+        width: 140px;
+        height: 140px;
+        margin: 1rem auto;
+     
+      }
+      .newsimg{
+          width: 160px;
+          height: 160px;
+      }
+      .newsCaption-title{
+        font-size: 0.75rem;
+      }
+      .newsCaption {
+        height: 30%;
+        padding: 5px;
+        -webkit-transform: translateY(50%);
+                transform: translateY(50%);
+     }
+     .newsCaption-content {
+        font-size: 0.6rem;
+      }
+      .newsCaption-link{
+          font-size: 0.6rem;
+      }
+      .news-Slide-up:hover .newsCaption {
+        -webkit-transform: translateY(20%);
+                transform: translateY(20%);
+      }
+    .contbox{
+      width: 300px;
+      height: 190px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-align: left;
+      margin: auto;
+      padding: 20px;
+  }
+  .conicon{
+    width: 18px;
+  }
+  .socialic{
+    width: 28px;
+    }
+    .map{
+    width :  300px;
+    height:  190px;
+    }
+    .bgrow{
+        height: 400px;
+    }
+    .gimg{
+        width: 160px;
+        height: 160px;
+    }
+    .socicon{
+        width: 40px;    
+    }
+    .foologo{
+        width: 70px;
+        height: 50px;
+        margin: 10px; 
+    }
+}   

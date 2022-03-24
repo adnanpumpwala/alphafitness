@@ -1,0 +1,15 @@
+.gimg{
+    width: 280px;
+    height: 220px;
+    margin: auto;
+    margin-top: 20px !important;
+    border-radius: 20px;
+    align-self: center;
+    object-fit: cover;
+    
+}
+.gimg:hover{
+    transform: scale(1.2);
+    transition: transform 700ms ease;   
+  
+}

@@ -1,0 +1,184 @@
+@media only screen and (max-width: 480px) {
+    .logo{
+        width: 60px;
+        margin: auto 0px;
+    }
+    #navbarNav{
+    text-align: center;
+    }
+    .shape{
+        font-size: 2.2rem;
+        font-weight: 900 !important;
+    }
+    .heropara{
+        margin: auto;
+        width: 300px;
+        margin-top: 30px !important;
+    }
+    .heroimg{
+        padding-top: 41px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .heroim{
+        width: 320px;
+    }
+    .hero{
+        height: 600px !important;
+    }
+    .ourser{
+        margin: 40px 0px;
+        text-align: center;
+    }
+    .ourser > h1{
+        font-size: 22px; 
+        padding-bottom: 10px;
+    }
+    .ourser > h5{
+        font-size: 12px;
+        width: 300px;
+        margin: auto;
+    }
+    .servi{
+        width: 18rem;
+        margin: auto;
+    }
+   
+    .ct{
+        font-size: 11px;
+    }
+    .why{
+        margin: 3px auto;
+        width: 12rem !important;
+        background-color: transparent !important;
+        align-items: center;
+        padding: 10px 6px;
+        height: 13rem !important;
+    }
+    .msgbox{
+        margin: 40px auto;
+        margin-left: 20px !important;
+      
+    }
+    #nl1, #nl2, #nl3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 30px;
+        width: 290px;
+        padding: 3px 8px;
+    }
+    #nl3{
+        width: 290px !important ;
+    }
+    .nlimg{
+        margin: 0 auto;
+        width: 350px;
+    }
+    .card1 {
+        margin: 20px auto;
+        width: 280px;
+        height: 280px;
+        text-align: center;
+        border-radius: 40px;
+      }
+      .foologo{
+        width: 50px;
+        height: 35px;
+        margin: 6px;
+        
+    }
+    .copyfoo{
+        font-size: 8px;
+        
+    }
+    .pricard{
+        width: 280px;
+       margin: auto;
+       padding: 20px 10px;
+       border-radius: 10px;
+       height: 440px;
+       margin-bottom: 10px !important;
+    }
+    .priimg{
+        justify-content: center;
+        width: 250px;
+        height: 190px;
+    }
+    .packprice{
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .packname{
+        font-size: 18px;
+    }
+    .packtext{
+        font-size: 12px;
+    }
+    .abttxt{
+        font-size: 10px;
+        text-align: center;
+        margin: 14px 40px;
+    }
+    .ptimg{
+        width: 280px;
+        height: 300px;
+    }
+    .pthead{
+        font-size: 1rem;
+    }
+    .newsCard {
+        width: 300px;
+        height: 210px;
+        margin: 2rem auto;
+     
+      }
+      
+      .newsCaption {
+        height: 50%;
+        padding: 15px;
+        -webkit-transform: translateY(50%);
+                transform: translateY(50%);
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+        -webkit-transform: translateY(60%);
+                transform: translateY(60%);
+      }
+      .newsCaption-title {
+        font-size: 1rem;
+      }
+      .newsCaption-content {
+        font-size: 0.9rem;
+      }
+      .newsCaption-link{
+          font-size: 0.8rem;
+      }
+      .contbox{
+        width: 300px;
+        height: 240px;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: left;
+        margin: auto;
+        padding: 20px;
+    }
+    .conicon{
+        width: 28px;
+    }
+    .socialic{
+        width: 40px;
+    }
+    .map{
+        width :  300px;
+        height: 240px;
+      }
+      .bgrow{
+        background-image: url("bgcontmob.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+    }
+    .socicon{
+    width: 30px;    
+    }
+}

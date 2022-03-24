@@ -1,0 +1,159 @@
+
+.cardf{
+    margin-top: 100px;
+      position: relative;
+      width: 600px;
+      height: 350px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      border-radius: 20px;
+      transition: 0.5s;
+     
+  
+  }
+  .foo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin: 0px
+    }
+  .frow{
+    margin: 30px auto;
+
+  }
+  .cardf .circle{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      overflow: hidden;
+      
+  
+  }
+  .cardf .circle::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #d83133;
+      clip-path: circle(120px at center);
+      transition: 0.5s;
+  
+  }
+  .cardf:hover .circle::before{
+      background: #ffffff;
+      clip-path: circle(400px at center);
+  
+  }
+  .cardf img{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 150px;
+      pointer-events: none;
+      transition: 0.5s;
+    color: white;
+  }
+  .cardf:hover img{
+      left: 72%;
+      height: 250px;
+  
+  }
+  .cardf .content{
+      position: relative;
+      width: 50%;
+      padding: 20px 20px 20px 20px;
+      transition: 0.5s;
+      opacity: 0;
+      visibility: hidden;
+     text-align: left;
+  
+  }
+  .cardf:hover .content{
+      left: 0;
+      opacity: 1;
+      visibility: visible;
+      
+  }
+  .cardf .content h2{
+      color: rgb(0, 0, 0);
+      text-transform: uppercase;
+      font-size: 2em;
+      line-height: 1em;
+      margin-bottom: 5px;
+  
+  }
+  .cardf .content p{
+      color: rgb(0, 0, 0);
+  
+  }
+ 
+  @media (max-width: 992px) {
+      .cardf{
+          width: auto;
+          max-width: 300px;
+          align-items: flex-start;
+          margin: 10px auto;
+      }
+      .cardf .circle::before{
+        top: 0;
+        left: 0;
+        clip-path: circle(40px at center);
+    }
+    .frow{
+        margin: 15px auto;
+      }
+      .cardf:hover{
+          height: 460px;
+      }
+      .cardf .content{
+          width: 100%;
+          left: 0;
+          padding: 15px;
+      }
+      .cardf .content h2{
+        font-size: 1.1em;
+        line-height: 1em;
+        margin-bottom: 5px;
+    
+    }
+      .cardf:hover img{
+          top: 88%;
+          left: 50%;
+          height: 10px;
+  
+      }
+     
+      
+  }
+  @media (max-width: 420px){
+      .cardf .content{
+          padding: 20px;
+      }
+      .cardf img{
+          height: 80px;
+      }
+      .cardf:hover img{
+        height: 160px;
+        top: 65%;
+    }
+    .cardf .content h2{
+        font-size: 1.3em;
+    }
+    .cardf .content p{
+        font-size: 0.8em;
+    }
+    .cardf:hover {
+        height: 350px;
+    }
+   
+  }
+  .greyrow{
+    background-color: #292929;
+}
